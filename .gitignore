@@ -8,7 +8,7 @@ backend/Dockerfile
 backend/requirements.txt
 
 #datasets
-datasets/
+datasets/data
 
 #frontend
 frontend/Dockerfile
