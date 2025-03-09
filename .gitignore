@@ -1,13 +1,16 @@
 #global
-.venv
-./todos_list.txt
-./docker-compose.yml
+.venv/
+todo_list.txt
+docker-compose.yml
 
 #backend 
-./backend/Dockerfile
-./backend/requirements.txt
+backend/Dockerfile
+backend/requirements.txt
+
+#datasets
+datasets/
 
 #frontend
-./frontend/Dockerfile
-./frontend/nginx.conf
-./frontend/package.json
+frontend/Dockerfile
+frontend/nginx.conf
+frontend/package.json
