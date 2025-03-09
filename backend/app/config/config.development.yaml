@@ -1,0 +1,32 @@
+api:
+  host: "localhost"
+  port: 5000
+  debug: true
+  cors_origins: 
+    - "http://localhost:5173"
+  request_timeout: 30
+
+correlation:
+  min_window_size: 5
+  max_window_size: 500
+  default_window_size: 30
+  rolling_windows: [30, 60, 90, 180, 360]
+  min_correlation: -1.0
+  max_correlation: 1.0
+
+asset:
+  short_window: 12
+  long_window: 26
+  signal_window: 9
+  bollinger_window: 20
+  std_dev: 2.0
+  stoch_window: 14
+  smooth_window: 3
+  adx_window: 14
+  cci_window: 20
+  rsi_window: 14
+
+data:
+  directory: "data"
+  cache_enabled: true
+  cache_ttl: 3600 

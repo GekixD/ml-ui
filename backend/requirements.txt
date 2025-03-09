@@ -1,0 +1,33 @@
+# API and Web Framework
+flask==3.0.0
+flask-cors==4.0.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.2
+polars==0.20.2  # Fast DataFrame operations
+
+# Data Analysis
+scipy==1.11.4
+statsmodels==0.14.1  # For statistical analysis
+
+# API Requests
+requests==2.31.0
+
+# YAML Configuration
+PyYAML==6.0.1
+
+# Type Checking
+typing-extensions==4.9.0
+mypy==1.7.1
+
+# Development Tools
+python-dotenv==1.0.0
+pytest==7.4.3
+black==23.12.0  # Code formatting
+flake8==6.1.0   # Linting
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.18.0 
